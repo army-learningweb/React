@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+// Component
 
-  return (
-    <>
-      <h1>Vite + React (Change)</h1>
-      <p>
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+function Welcome() {
+  return (<h1>Xin chào bạn - tôi là component Welcome</h1>);
 }
 
-export default App
+function App() {
+  return (
+    <>
+      <Welcome />
+    </>
+  );
+}
+
+export default App;
