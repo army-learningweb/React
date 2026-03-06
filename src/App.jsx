@@ -7,14 +7,14 @@ import viteLogo from "/vite.svg";
 
 // Component
 import { UserProfile } from "./components/UserProfile";
-import {Welcome} from "./components/Welcome";
-import {Child} from "./components/Child";
+import { Welcome } from "./components/Welcome";
+import { Child } from "./components/Child";
 
 // App
 function App() {
   return (
     <>
-      <Child name="vỹ"/>
+      <UserProfile name="Lưu Đức Vỹ" avatar = "Vỹ" skill = {['HTML,CSS','PHP,LARAVEL']}/>
     </>
   );
 }
