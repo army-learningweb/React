@@ -15,7 +15,7 @@ function UserProfile(){
     
     // HTML
     return (
-        <div>
+        <div className="card" style={{background:"#242424",color:"white", padding:"15px", borderRadius:"15px"}}>
             <div className="name">{user.name}</div>
             <div className="avatar">{user.avatar}</div>
             <div className="skill">
