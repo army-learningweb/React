@@ -1,14 +1,27 @@
 import "../UserProfile.css"
 
 function UserProfile(){
+
+    // Logic
+    // const name = 'Lưu Đức Vỹ'
+    // const avatar = "Vỹ"
+    // const skill = ['HTML,CSS,JS','PHP,LARAVEL'];
+
+    const user = {
+        name: 'Lưu Đức Vỹ',
+        avatar: 'Vỹ',
+        skill : ['HTML,CSS,JS','PHP,LARAVEL']
+    };
+    
+    // HTML
     return (
         <div>
-            <div className="name">Lưu Đức Vỹ</div>
-            <div className="avatar">Vỹ</div>
+            <div className="name">{user.name}</div>
+            <div className="avatar">{user.avatar}</div>
             <div className="skill">
                 <ul>
-                    <li>HTML,CSS,JS</li>
-                    <li>PHP.LARAVEL</li>
+                    <li>{user.skill[0]}</li>
+                    <li>{user.skill[1]}</li>
                 </ul>
             </div>
         </div>
