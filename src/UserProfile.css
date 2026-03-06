@@ -1,0 +1,14 @@
+.name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    border-radius: 100%;
+}
