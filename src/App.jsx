@@ -8,12 +8,13 @@ import viteLogo from "/vite.svg";
 // Component
 import { UserProfile } from "./components/UserProfile";
 import {Welcome} from "./components/Welcome";
+import {Child} from "./components/Child";
 
 // App
 function App() {
   return (
     <>
-      <UserProfile/>
+      <Child name="vỹ"/>
     </>
   );
 }
