@@ -17,8 +17,9 @@ function UserProfile({ user }) {
       <div className="avatar">{user.avatar}</div>
       <div className="skill">
         <ul>
-            <li>{user.skill[0]}</li>
-            <li>{user.skill[1]}</li>
+          {user.skill.map((skill, index)=>(
+              <li key={index}>{skill}</li>
+          ))}
         </ul>
       </div>
     </div>
